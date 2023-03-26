@@ -23,7 +23,7 @@ docker build -t anshuhtwt/${image1}:${tag1} /home/ubuntu/Microservices-TODO/fron
 docker build -t anshuhtwt/${image2}:${tag2} /home/ubuntu/Microservices-TODO/auth-api/
 docker build -t anshuhtwt/${image3}:${tag3} /home/ubuntu/Microservices-TODO/todos-api/
 docker build -t anshuhtwt/${image4}:${tag4} /home/ubuntu/Microservices-TODO/users-api/
-docker build -t your-username/${image5}:${tag5} /home/ubuntu/Microservices-TODO/log-message-processor/
+docker build -t anshuhtwt/${image5}:${tag5} /home/ubuntu/Microservices-TODO/log-message-processor/
 
 # Push the Docker images to Docker Hub
 docker push anshuhtwt/${image1}:${tag1}
