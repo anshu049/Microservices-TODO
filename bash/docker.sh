@@ -15,6 +15,9 @@ tag5="latest"
 # Login to Docker Hub
 docker login -u your-username -p your-password
 
+# delete existing images
+docker rmi anshuhtwt/${image1} anshuhtwt/${image2} anshuhtwt/${image3} anshuhtwt/${image4} anshuhtwt/${image5}
+
 # Build and tag the Docker images
 docker build -t anshuhtwt/${image1}:${tag1} /home/ubuntu/Microservices-TODO/frontend
 docker build -t anshuhtwt/${image2}:${tag2} /home/ubuntu/Microservices-TODO/auth-api
